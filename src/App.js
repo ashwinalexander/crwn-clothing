@@ -5,7 +5,7 @@ import HomePage from "./pages/homepage/homepage.component";
 
 const HatsPage = () => (
 	<div>
-		<h1>hadts</h1>
+		<h1>hatss</h1>
 	</div>
 );
 
@@ -13,8 +13,8 @@ function App() {
 	return (
 		<div>
 			<Switch>
-				<Route path="/" component={HomePage} />
-				<Route exact path="/shop/hats" component={HatsPage} />
+				<Route exact path="/" component={HomePage} />
+				<Route exact path="/hats" component={HatsPage} />
 			</Switch>
 		</div>
 	);
