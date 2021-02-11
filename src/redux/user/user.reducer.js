@@ -3,6 +3,8 @@ const INITIAL_STATE = {
 };
 
 //If state is undefined, leverage the default value
+
+//reducer = function that takes in two inputs = state, action (type, newstate)
 const userReducer = (state = INITIAL_STATE, action) => {
 	switch (action.type) {
 		case "SET_CURRENT_USER":
